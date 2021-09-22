@@ -19,6 +19,8 @@ To use this app. please:
 
 http://127.0.0.1:8000/index/
  
+Please view instructions.pdf for detailed instructions with screenshots
+
 
 The app is initialized with 3 users:
 

@@ -10,10 +10,10 @@ To use this app. please:
 2. open a terminal and run commands in the root directory of the project:
 
 
-  $ pip install -r requirements.txt
+        $ pip install -r requirements.txt
   
   
-  $ python manage.py runserver
+        $ python manage.py runserver
   
 3. Open a browser and visit: 
 

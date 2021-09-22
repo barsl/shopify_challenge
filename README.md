@@ -14,6 +14,10 @@ To use this app. please:
   
   
   $ python manage.py runserver
+  
+3. Open a browser and visit: 
+
+http://127.0.0.1:8000/index/
  
 
 The app is initialized with 3 users:

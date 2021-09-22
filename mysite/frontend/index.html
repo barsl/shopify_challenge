@@ -50,8 +50,10 @@ https://templatemo.com/tm-556-catalog-z
     // send search input to server and display results
     function submit_search() {
             var search_input = document.getElementById("search_input").value
-
-            update_section('/search/?search_input='+search_input, update_gallery_section)
+            if (search_input != ""){
+                update_section('/search/?search_input='+search_input, update_gallery_section)
+            };
+            
 
     };
 
@@ -71,8 +73,6 @@ https://templatemo.com/tm-556-catalog-z
         e.preventDefault();
         });
 
-        var x = document.getElementById("hide");
-        x.style.display = "block";
     });
 
 </script>
@@ -120,7 +120,7 @@ https://templatemo.com/tm-556-catalog-z
             </button>                     
         </form>
 
-        <div id="hide">
+        <div class="hide" id="hide" style="display: none;">
             <form class="d-flex tm-search-form" method = "post" enctype="multipart/form-data">
                 {% csrf_token %}
                 {{ form.image }}

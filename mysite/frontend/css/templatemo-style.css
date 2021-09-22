@@ -10,9 +10,9 @@ https://templatemo.com/tm-556-catalog-z
     flex-direction: column;
 }
 
-#hide:
+div .hide:
 {
-    visibility: hidden;
+    display: : none;
 }
 
 #loader-wrapper {

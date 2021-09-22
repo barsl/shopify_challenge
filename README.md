@@ -7,7 +7,7 @@ Python3, pip Installer
 To use this app. please:
 
 1. clone the repository
-2. open a terminal and run commands in the root directory of the project:
+2. open a terminal and run commands in the root directory of the project (mysite):
 
 
         $ pip install -r requirements.txt
